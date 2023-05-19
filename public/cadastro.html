@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="./funcoes.js"></script>
+    <title>cadastro</title>
+</head>
+<body>
+      
+        <div class="header">
+            <nav>
+                <ul class="ul">
+                    <li><a class="titulo" href="index.html"> <h1>educatioNow</h1> </a></li>
+                    <li> <a href="./desenvolvedor.html">Desenvolvedor</a></li>
+                    
+                </ul>
+              </nav>
+          </div>
+    
+        <div class="conteiner_login">
+            <form class="form">
+              <p class="form-title">Cadastre-se</p>
+                <div class="input-container">
+                    <input placeholder="Nome" type="text">
+                </div>
+                <div>
+                    <select class="input-container" name="cargo" id="select_cargo">
+                        <option disabled selected value=""><span>Cargo</span></option>
+                        <option value="professor_univ">Professor Universitário</option>
+                        <option value="professor_medio_tec">Professor de nível médio/Técnico</option>
+                        <option value="analista_jr">Analista Jr </option>
+                        <option value="analista_pl">Analista Pl</option>
+                        <option value="analista_sr">Analista Sr</option>
+                    </select>
+                   </div>
+                <div class="input-container">
+                    <input placeholder="Email" type="email">
+                   </div>
+                <div class="input-container">
+                 <input placeholder="Senha" type="password">
+                </div>
+                <div class="input-container">
+                    <input placeholder="Confirme sua senha" type="password">
+                   </div>
+                <button class="submit" type="submit">
+               Enviar
+             </button>
+        
+             
+          </form>
+       
+        </div>
+</body>
+</html>
